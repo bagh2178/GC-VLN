@@ -2,7 +2,7 @@
 ### [Paper](https://arxiv.org/abs/2509.10454) | [Project Page](https://bagh2178.github.io/GC-VLN/) | [Video](https://cloud.tsinghua.edu.cn/f/f21a13df2bc749bb980a/?dl=1)
 
 > GC-VLN: Instruction as Graph Constraints for Training-free Vision-and-Language Navigation  
-> [Hang Yin](https://bagh2178.github.io/)\*, Haoyu Wei\*, [Xiuwei Xu](https://xuxw98.github.io/)$^\dagger$, [Zhenyu Wu](https://gary3410.github.io/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)$^\ddagger$  
+> [Hang Yin](https://bagh2178.github.io/)\*, Haoyu Wei\*, [Xiuwei Xu](https://xuxw98.github.io/)$^\dagger$, [Wenxuan Guo](https://gwxuan.github.io/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)$^\ddagger$  
 
 \* Equal contribution $\dagger$ Project leader $\ddagger$ Corresponding author
 
