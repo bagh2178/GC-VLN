@@ -54,7 +54,7 @@ conda create -n GC-VLN-Server python=3.10
 conda activate GC-VLN-Server
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
 pip install opencv-python==4.11.0.86 supervision==0.25.1 transformers==4.51.3 addict==2.4.0 yapf==0.43.0 pycocotools==2.0.8 timm==1.0.15 numpy==2.2.4  # supervision addict yapf pycocotools
-pip install -e third_party/GC-VLN-Server
+pip install -e third_party/ModelServer
 pip install -e third_party/Grounded-SAM-2
 conda install intel-openmp=2021.4.0 -c defaults -y
 pip install --no-build-isolation -e third_party/Grounded-SAM-2/grounding_dino
