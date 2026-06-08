@@ -1,0 +1,10 @@
+**/__pycache__/
+*.pyc
+.vscode/
+data/
+outputs/
+**/api*.json
+tmp/
+
+!data/datasets/R2R_VLNCE_v1-2_preprocessed/val_unseen/val_unseen.json.gz
+!data/datasets/RxR_VLNCE_v0/val_unseen/val_unseen_guide.json.gz

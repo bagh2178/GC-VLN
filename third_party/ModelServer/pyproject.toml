@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ModelServer"
+version = "0.3.1"
+description = "A framework for reading and controlling models remotely."
+readme = "README.md"
+authors = [
+    { name = "Hang Yin", email = "yinh23@mails.tsinghua.edu.cn" },
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "requests",
+    "python-multipart",
+]
+
+[project.urls]
+Homepage = "https://github.com/bagh2178/ModelServer"
