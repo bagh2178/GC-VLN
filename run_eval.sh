@@ -9,6 +9,7 @@ SPLIT_NUM=1
 SPLIT_INDEX=0
 GSAM2_SERVER_PORT=7000
 DEVICE=0
+export NLTK_DATA=./data/nltk_data
 
 # Set config and experiment ID based on dataset
 if [ "$DATASET" = "rxr" ]; then

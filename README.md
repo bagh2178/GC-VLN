@@ -39,6 +39,7 @@ conda activate GC-VLN
 conda install habitat-sim==0.2.4 -c conda-forge -c aihabitat
 pip install -e third_party/habitat-lab
 pip install -r requirements.txt
+python scripts/fix_torch_tensorboard.py
 conda install faiss-gpu=1.8.0 -c pytorch -y
 pip install --no-build-isolation -e third_party/GLIP
 mkdir -p third_party/GLIP/MODEL
@@ -96,7 +97,7 @@ Activate GC-VLN-Server environment and start the GSAM2 server:
 
 ```bash
 conda activate GC-VLN-Server
-python third_party/GC-VLN-Server/scripts/quickstart_server/GSAM2.py --port 7000
+python third_party/ModelServer/scripts/quickstart_server/GSAM2.py --port 7000
 ```
 
 Wait for the server to fully start before proceeding to the next step.
